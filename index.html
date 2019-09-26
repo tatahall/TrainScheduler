@@ -14,8 +14,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
     <!-- Firebase References -->
-    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-database.js"></script>
 
     <!-- Moment.js Reference -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
@@ -42,7 +42,7 @@
 
         <div class="col-md-12">
 
-            <!-- Current Employees-->
+            <!-- Current Trains-->
             <div class="card mb-4">
                 <div class="card-header">Current Train Arrivals</div>
                 <div class="card-body">
@@ -66,7 +66,7 @@
 
     <div class="row">
         <div class="col-md-12">
-            <!-- Add Employee  -->
+            <!-- Add Trains  -->
             <div class="card mb-4">
                 <div class="card-header">Add Trains</div>
                 <div class="card-body">
@@ -83,12 +83,12 @@
                         </div>
                         <div class="form-group">
                             <!--first train time should be in military time-->
-                            <label for="time-input">First Train</label>
+                            <label for="time-input">First Train (24:00)</label>
                             <input class="form-control" id="time-input" placeholder="Time" type="text">
                         </div>
                         <!--frequency should be in minutes-->
                         <div class="form-group">
-                            <label for="minute-input">Frequency</label>
+                            <label for="minute-input">Frequency (Minutes)</label>
                             <input class="form-control" id="minute-input" placeholder="Frequency" type="text">
                         </div>
                         <button class="btn btn-primary float-right" id="add-train-btn">Submit</button>
